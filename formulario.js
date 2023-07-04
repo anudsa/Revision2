@@ -1,12 +1,15 @@
+//Anwar Delgado Silva
+//Revisó:Hiram 3/5.
+
 var formulario = document.querySelector("#form")
 
 formulario.onsubmit = function(e) {
 
   e.prevent();
   
-  var n = formulario.elements[0]
-  var e = formulario.elements[1]
-  var na = formulario.elements[2]
+  var nombreFormulario = formulario.elements[0]
+  var elementoFormulario = formulario.elements[1]
+  var nacionalidadFormulario = formulario.elements[2]
 
   var nombre = n.value
   var edad = e.value
